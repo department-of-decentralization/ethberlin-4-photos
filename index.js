@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
 
-const folderPath = "./images"; // Replace with your folder path
+const folderPath = "./images/thumbnails"; // Replace with your folder path
 const outputFilePath = "./images.json";
 
 fs.readdir(folderPath, (err, files) => {
